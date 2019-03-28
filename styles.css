@@ -27,7 +27,8 @@ h1{
 }
 ul {
   color: white;
-  background-color: rgba(0,0,0,0.3)
+  background-color: rgba(0,0,0,0.3);
+  display: block;
 }
 
 h2{
@@ -48,6 +49,7 @@ p{
 p.intro{
   background-color: rgba(0,0,0,0.3);
   padding-top: 20px;
+
 }
 figcaption{
   color:white;
@@ -63,6 +65,7 @@ body {
   background: transparent url(./images/smoke.jpg) top left;
   background-color: black;
   background-size: cover;
+	background-attachment: fixed;
   width: 100vw;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
