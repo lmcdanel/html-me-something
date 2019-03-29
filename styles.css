@@ -2,6 +2,7 @@ html {
 	margin: 0;
 	padding: 0;
 	}
+
 header{
     padding-top: 20px;
   	height: 60px;
@@ -10,6 +11,7 @@ header{
     border-bottom: solid 2px white;
 
 }
+
 img.logo{
   align-content:left;
   border-radius: 100px;
@@ -32,15 +34,16 @@ body {
 }
 
 h1{
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   margin-top: 40px;
-  color: white;
   padding: 20px;
 
 }
-
+.heading{
+	text-align: left;
+	font-family: "Raleway",sans-serif;
+	color: white;
+}
 article{
 	margin: 20px;
 	background-color: rgba(0,0,0,0.3);
@@ -55,20 +58,18 @@ ul {
 }
 
 h2{
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  width: 90vw;
+	width: 90vw;
   margin: auto;
   padding: 10px;
-  color: white;
-
 }
+
 p{
   text-align: left;
   justify-content: center;
   padding: 20px;
   color:white;
 }
+
 p.intro{
   background-color: rgba(0,0,0,0.3);
   padding-top: 20px;
@@ -78,10 +79,10 @@ figcaption{
   color:white;
 }
 
-a:link{
+#link{
   color:rgb(0,255,255);
 }
-a:visited{
+#link:visited{
   color: rgb(255,255,255);
 }
 
